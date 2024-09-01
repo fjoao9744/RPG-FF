@@ -2,7 +2,8 @@
 body {
     text-align: center;
     background-color: rgb(202, 202, 202);
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 
 }
 details {
@@ -23,7 +24,7 @@ ul{
 }
 li {
 
-    padding: 10px;
+    padding: 9px;
     font-size: 20px;
     list-style: none;
 }
