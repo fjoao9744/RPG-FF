@@ -38,14 +38,3 @@ h1 {
 
 }
 
-img {
-    width="320px" 
-    height="auto"
-    
-}
-
-img:hover {
-    width="640px" 
-    height="auto"
-    
-}
