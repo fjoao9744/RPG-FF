@@ -47,12 +47,12 @@
 <div class="ficha">
 <p>HP:</p><p id="hp">96</p>
 </div>
-<button id='restore' onclick="document.getElementById('hp').innerHTML = smog">Restore</button>
-<button id='damage'>damage</button>
+<button id='restore' onclick="document.getElementById('hp').innerHTML = hp_fix">Restore</button>
+<button id='damage' onclick="document.getElementById('hp').innerHTML = smog">damage</button>
     <script>
         const hp_fix = getElementById("hp");
         let hp_var = getElementById("hp");
-        let smog = 100;
+        let smog = 95;
     </script>
 </body>
 </html>
