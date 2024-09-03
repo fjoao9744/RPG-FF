@@ -1,3 +1,9 @@
+div ul {
+padding-left: 0; /* Remove o preenchimento à esquerda */
+            margin-left: 0;  /* Remove a margem à esquerda */
+            list-style-position: inside;
+}
+
 div li {
   list-style-type: none;
 
