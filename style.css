@@ -1,11 +1,16 @@
-div li {
+div.arco li {
   list-style-type: none;
-  text-decoration: none;
-  text-color: black;
   
 }
 
 
 .arco {
 display: inline-table;
+  
 }
+
+div.arco ul {
+padding: 0%;
+  
+}
+
