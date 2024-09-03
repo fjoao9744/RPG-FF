@@ -1,12 +1,10 @@
 div li {
   list-style-type: none;
   text-decoration: none;
-  color: black;
+  text-color: black;
   
 }
-div ul {
-  padding: 0px;
-}
+
 
 .arco {
 display: inline-table;
