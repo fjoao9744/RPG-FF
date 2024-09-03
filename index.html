@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPG FF</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
@@ -40,5 +40,20 @@
     <ul>
     </ul>
 </div>
+
+
+
+
+<div class="ficha">
+<p>HP:</p><p id='hp'>96</p>
+</div>
+<button id='restore' onclick="document.getElementById('hp').innerHTML = hp_fix">Restore</button>
+<button id='damage' onclick="document.getElementById('hp').innerHTML = hp_var - 1"">damage</button>
+    <script>
+        const hp_fix = getElementById("hp");
+        let hp_var = getElementById("hp");
+        
+        
+    </script>
 </body>
 </html>
