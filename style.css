@@ -1,10 +1,10 @@
-.arco li {
-list-style-type: none;
+div.arco li {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
   
 }
 
 .arco {
 display: inline-table;
-  text-decoration: none;
-  color: black;
 }
