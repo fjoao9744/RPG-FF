@@ -45,17 +45,13 @@
 
 
 <div class="ficha">
-<p>HP:</p><p id='hp'>96</p>
+<p>HP:</p><p id="hp">96</p>
 </div>
-<button id='restore' onclick="document.getElementById('hp').innerHTML = '97'">Restore</button>
-<button id='damage' onclick="Damage(getElementById('hp'))">damage</button>
+<button id='restore' onclick="document.getElementById('hp').innerHTML = 98 + 2">Restore</button>
+<button id='damage'>damage</button>
     <script>
         const hp_fix = getElementById("hp");
         let hp_var = getElementById("hp");
-        function Damage(Number(hp)) {
-            return hp - 1
-        }
-        
     </script>
 </body>
 </html>
