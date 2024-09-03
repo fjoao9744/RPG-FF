@@ -1,6 +1,7 @@
 div a {
   padding-left: 0; 
   margin-left: 0;  
+  list-style-position: inside;
   
 }
 div li {
