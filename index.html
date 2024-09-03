@@ -48,11 +48,13 @@
 <p>HP:</p><p id='hp'>96</p>
 </div>
 <button id='restore' onclick="document.getElementById('hp').innerHTML = hp_fix">Restore</button>
-<button id='damage' onclick="document.getElementById('hp').innerHTML = Number(hp_var) - 1">damage</button>
+<button id='damage' onclick="Damage(getElementById('hp'))">damage</button>
     <script>
         const hp_fix = getElementById("hp");
         let hp_var = getElementById("hp");
-        
+        function Damage(Number(hp)) {
+            return hp - 1
+        }
         
     </script>
 </body>
