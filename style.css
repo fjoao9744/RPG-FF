@@ -1,4 +1,5 @@
 .arco {
   display:flex;
+  justify-content:inline-block ;
   align-items: center;
 }
