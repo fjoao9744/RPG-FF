@@ -5,4 +5,6 @@ list-style-type: none;
 
 .arco {
 display: inline-table;
+  text-decoration: none;
+  color: black;
 }
