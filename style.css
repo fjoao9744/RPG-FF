@@ -1,6 +1,9 @@
 div li {
   list-style-type: none;
 
+}
+div ul {
+  padding: 0px;
   
 }
 
