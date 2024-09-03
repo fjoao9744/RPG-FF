@@ -15,12 +15,12 @@ details {
 }
 
 ul{
-
     border-radius: 15px;
     background-color: rgb(187, 187, 187);   
     margin: 0%;
     text-align: left;
     padding: 0%;
+    
 }
 li {
 
@@ -36,5 +36,5 @@ h1 {
 div {
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
