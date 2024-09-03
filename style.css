@@ -1,6 +1,6 @@
-div.arco li {
+div li {
   list-style-type: none;
-  margin: 0%;
+
   
 }
 
@@ -10,8 +10,7 @@ display: inline-table;
   
 }
 
-div.arco ul {
-padding: 0%;
-  
+div ul {
+    margin: 0%;
 }
 
