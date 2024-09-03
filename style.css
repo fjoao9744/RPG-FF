@@ -3,7 +3,11 @@ div ul {
   margin-left: 0;  
   list-style-position: inside;
 }
-
+div a {
+  padding-left: 0; 
+  margin-left: 0;  
+  
+}
 div li {
   list-style-type: none;
 
