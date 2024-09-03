@@ -1,3 +1,8 @@
+.arco li {
+list-style-type: none;
+  
+}
+
 .arco {
 display: inline-table;
 }
