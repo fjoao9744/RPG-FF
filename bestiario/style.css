@@ -13,6 +13,9 @@ details {
     padding: 4px;
     width: 200px;
 }
+details:hover {
+    cursor: pointer;
+}
 
 ul{
     border-radius: 15px;
@@ -21,6 +24,9 @@ ul{
     text-align: left;
     padding: 0%;
     
+}
+ul:hover {
+    cursor: text;
 }
 li {
 

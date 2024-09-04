@@ -1,18 +1,16 @@
-div a {
-  padding-left: 0; 
-  margin-left: 0;  
-  list-style-position: inside;
+.arco {
+  display: inline-table;
   
 }
-div li {
+div.arco li {
   list-style-type: none;
 
 }
+div.arco ul {
+  padding: 0; 
 
-
-.arco {
-display: inline-table;
-  
 }
+
+
 
 
