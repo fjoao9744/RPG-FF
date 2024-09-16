@@ -12,5 +12,19 @@ div.arco ul {
 }
 
 
+div.exp {
+  display: flex;
+  background-color: rgb(199, 199, 199);
+  width: 900px;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+.exp p {
+  padding-right: 20px;
+  font-size: 70%;
+}
+
+
 
 
